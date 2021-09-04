@@ -1,0 +1,59 @@
+.sidebar-chat {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebar-chat:hover {
+  background-color: #ebebeb;
+}
+
+.chat-info {
+  /* border-bottom: 1px solid lightgrey; */
+  margin-left: 10px;
+}
+
+.chat-info .top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-info .top .room-name {
+  font-size: 18px;
+  font-weight: unset;
+}
+
+.chat-info .top span {
+  font-size: 12px;
+}
+
+.chat-info .MuiSvgIcon-root {
+  font-size: 18px;
+}
+
+.chat-info .bottom .msg_count {
+  display: grid;
+  place-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 3px;
+  font-size: 11px;
+  /* line-height: 10px; */
+  /* box-sizing: border-box; */
+  color: #fff;
+  background-color: limegreen;
+}
+
+.chat-info .bottom p {
+  max-width: 80%;
+  font-size: 14px;
+  margin-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

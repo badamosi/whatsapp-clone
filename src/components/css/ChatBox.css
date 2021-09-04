@@ -1,0 +1,25 @@
+.chatbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* background-color: gray; */
+}
+
+.message-box {
+  flex: 1;
+  padding: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.message-box input {
+  border: none;
+  outline: none;
+  color: gray;
+}
+
+.MuiSvgIcon-root {
+  color: gray;
+  padding: 5px;
+}
